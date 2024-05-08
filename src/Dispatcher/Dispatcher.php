@@ -24,7 +24,7 @@ use Joomla\Module\KsContactsBirthday\Site\Helper\KsContactsBirthdayHelper;
 /**
  * Dispatcher class for mod_ks_contacts_birthday
  *
- * @since  1.0.1
+ * @since  1.0.0
  */
 class Dispatcher extends AbstractModuleDispatcher
 {
@@ -33,7 +33,7 @@ class Dispatcher extends AbstractModuleDispatcher
      *
      * @return  array
      *
-     * @since   1.0.1
+     * @since   1.0.0
      */
     private $moduleExtension;
 
