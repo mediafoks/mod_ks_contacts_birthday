@@ -25,7 +25,7 @@ class KsContactsBirthdayHelper
 {
     public function getContacts($params): array
     {
-        $db = Factory::getDbo();
+        $db = Factory::getContainer()->get('DatabaseDriver');
 
         $catId = join(',', $params->get('catid'));
 
