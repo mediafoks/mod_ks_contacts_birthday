@@ -9,6 +9,9 @@
  */
 
 defined('_JEXEC') or die;
+
+//$contacts - массив всех контактов.
+
 $today = date("Y-m-d"); //Текущая дата
 $arr_contacts_name = []; //Массив с именами контактов
 
